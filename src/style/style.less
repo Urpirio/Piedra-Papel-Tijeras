@@ -1,0 +1,87 @@
+:root{
+    font-family: "Poppins", serif;
+}
+body{
+    margin: 0;
+}
+
+.BodyGame{
+    height: 100vh;
+    width: 100vw;
+    background: #8ecae6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    .BG__player{
+        height: 10cm;
+        width: 10cm;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        background: whitesmoke;
+        box-shadow: 1px 1px 5px 5px #80808056;
+    }
+    .BG__Machine{
+        height: 10cm;
+        width: 10cm;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        background: whitesmoke;
+        box-shadow: 1px 1px 5px 5px #80808056;
+    }
+    .StartGame{
+        height: 1cm;
+        width: 4cm;
+        font-size: 20px;
+        font-weight: 600;
+        border: 1px solid #edaf05;
+        border-radius: 10px;
+        background: #ffd500;
+        color: white;
+        cursor: pointer;
+        &:hover{
+            background: #cdab01;
+        }
+    }
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+        height: 300px;
+    }
+    #Dialog{
+        height: 5cm;
+        width: 10cm;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgba(128, 128, 128, 0.199);
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px 5px #80808033;
+        font-size: 30px;
+        #StartGame2{
+            height: 1cm;
+            width: 3cm;
+            font-size: 20px;
+            font-weight: 600;
+            border: 1px solid gray;
+            border-radius: 10px;
+            background: red;
+            color: white;
+            box-shadow: 1px 2px 5px 5px #80808042;
+            cursor: pointer;
+            &:hover{
+                background: #b60202; 
+            }
+        }
+    }
+}
